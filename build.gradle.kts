@@ -15,6 +15,9 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("com.h2database:h2")
+    implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
