@@ -23,7 +23,7 @@ public class OrderService {
     }
 
     public Order createOrder(Order order) {
-        order.setId((long) (orders.size() + 1)); // Simulate auto-increment ID
+        order.setId((long) (orders.size() + 1));
         orders.add(order);
         return order;
     }

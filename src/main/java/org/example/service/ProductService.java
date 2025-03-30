@@ -39,7 +39,7 @@ public class ProductService {
     }
 
     public Product createProduct(Product product) {
-        product.setId((long) (products.size() + 1)); // Simulate auto-increment ID
+        product.setId((long) (products.size() + 1));
         products.add(product);
         return product;
     }
